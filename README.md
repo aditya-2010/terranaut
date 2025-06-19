@@ -68,6 +68,7 @@ Traditional Terraform workflows become error-prone when managing many environmen
 The tool is provided as a single Python file (terranaut.py). 
 Place it in your infrastructure repository root and follow the directory structure below.
 
+```
 .   
 ├── environments/           # Isolated environment configurations \
 │   ├── dev/                # Development environment \
@@ -97,6 +98,7 @@ Place it in your infrastructure repository root and follow the directory structu
 ├── .tfenv                 # Active environment config (auto-generated)     
 │   
 └── terranaut.py               # The CLI tool (entry point)     
+```
 
 <!-- Detailed usage examples -->
 ### Usage Examples
